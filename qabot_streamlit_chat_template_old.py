@@ -13,7 +13,7 @@ from langchain.chains.conversation.memory import ConversationEntityMemory
 from langchain.chains.conversation.prompt import ENTITY_MEMORY_CONVERSATION_TEMPLATE
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Define the LLM chat model
 chat = ChatOpenAI(temperature=0.9)
@@ -82,7 +82,7 @@ st.subheader(" Powered by 🦜 LangChain + OpenAI + Streamlit")
 
 # Ask the user to enter their OpenAI API key
 #API_O = st.sidebar.text_input("API-KEY", type="password")
-API_O = "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"
+API_O = ""
 
 # Session state storage would be ideal
 if API_O:

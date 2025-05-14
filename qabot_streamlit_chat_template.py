@@ -11,7 +11,7 @@ from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferMemory
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Define the LLM chat model
 chat = ChatOpenAI(temperature=0.9)

@@ -13,7 +13,7 @@ from langchain.chains.conversation.memory import ConversationEntityMemory
 from langchain.chains.conversation.prompt import ENTITY_MEMORY_CONVERSATION_TEMPLATE
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 st.set_page_config(page_title="LLM-powered Streamlit app", page_icon=":robot_face:")
 

@@ -9,7 +9,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains.llm import LLMChain
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 st.set_page_config(page_title="HugChat - An LLM-powered Streamlit app")
 

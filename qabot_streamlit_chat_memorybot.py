@@ -72,7 +72,7 @@ st.subheader(" Powered by 🦜 LangChain + OpenAI + Streamlit")
 
 # Ask the user to enter their OpenAI API key
 #API_O = st.sidebar.text_input("API-KEY", type="password")
-API_O = "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"
+API_O = ""
 
 # Session state storage would be ideal
 if API_O:
